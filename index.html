@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>SySale</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="products">
+                <div class="products__tiny">
+                    <span class="status">NEW</span>
+                    <a href="#" class="compare" title="Добавить в сравнение">
+                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.48741 6.91675L12.4318 8.84572L9.80372 13.2263C9.80372 13.2263 9.80372 13.2263 9.80371 13.2263C9.75067 13.3147 9.72265 13.4158 9.72265 13.5189C9.72265 15.4936 11.329 17.1 13.3038 17.1C15.2786 17.1 16.885 15.4936 16.885 13.5189C16.885 13.4158 16.8569 13.3146 16.8039 13.2263L16.7182 13.2777L16.8039 13.2263L14.5247 9.42704L16.1641 9.88242C16.2148 9.89653 16.2661 9.90329 16.3166 9.90329C16.5657 9.90329 16.7943 9.73851 16.8643 9.48666L16.8643 9.48663C16.9483 9.184 16.7712 8.87049 16.4685 8.78643L13.4508 7.94819L9.35391 6.81021V1.57819C9.35391 1.43938 9.32885 1.27339 9.24428 1.13881C9.1555 0.99753 9.00635 0.9 8.78516 0.9C8.66256 0.9 8.56046 0.930984 8.47814 0.987249C8.39645 1.04308 8.34063 1.1194 8.30263 1.20028C8.22814 1.35882 8.21641 1.54746 8.21641 1.67977V6.49424L4.41346 5.43788L1.40627 4.60255C1.10366 4.51844 0.790107 4.69568 0.706013 4.99832L0.706007 4.99834C0.62199 5.30098 0.799121 5.61448 1.10182 5.69855C1.10182 5.69855 1.10182 5.69855 1.10182 5.69855L3.39446 6.3354L0.766411 10.7159C0.766405 10.7159 0.766399 10.7159 0.766393 10.7159C0.713361 10.8043 0.685333 10.9054 0.685394 11.0085C0.685394 11.0085 0.685394 11.0085 0.685394 11.0085L0.785394 11.0085C0.785332 11.9383 1.14742 12.8125 1.80495 13.47C2.46252 14.1276 3.3367 14.4897 4.26654 14.4897C6.18604 14.4897 7.74769 12.9281 7.74769 11.0085C7.74769 10.9236 7.72457 10.8402 7.68088 10.7674L5.48741 6.91675ZM15.6802 14.0876C15.4231 15.1616 14.4552 15.9625 13.3038 15.9625C12.1524 15.9625 11.1845 15.1616 10.9275 14.0876H15.6802ZM11.2958 12.9501L13.3038 9.60316L15.3118 12.9501H11.2958ZM6.27452 10.4397H2.25851L4.26654 7.09284L6.27452 10.4397ZM4.26648 13.4522C3.1151 13.4522 2.1472 12.6513 1.89011 11.5773H6.64288C6.38578 12.6513 5.41783 13.4522 4.26648 13.4522Z" fill="#003466" stroke="#003466" stroke-width="0.2"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="products__tiny--img">
+                        <img src="img/p1.jpg" data-old="img/p1.jpg" data-new="img/p2.jpg" alt="Product 1">
+                    </a>
+                    <a href="#" class="products__tiny--title" title="Шампунь">Шампунь</a>
+                    <p class="products__tiny--excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <div class="products__tiny--param">
+                        <div class="color">
+                            <button type="button" class="color__btn active color__controller">Цвет</button>
+                            <input type="hidden" name="volume" value="">
+                            <div class="color__menu">
+                                <div class="color__menu--overlay">
+                                    <button type="button" class="color__btn" data-id="1">Желтый</button>
+                                    <button type="button" class="color__btn" data-id="2">Зеленый</button>
+                                    <button type="button" class="color__btn" data-id="3">Красный</button>
+                                    <button type="button" class="color__btn" data-id="4">Синий</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="volume">
+                            <div class="volume__tiny">
+                                <input type="radio" id="v11" name="volume1" class="volume__tiny--val" data-price="200" checked>
+                                <label for="v11">200 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v12" name="volume1" class="volume__tiny--val" data-price="300">
+                                <label for="v12">300 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v13" name="volume1" class="volume__tiny--val" data-price="400">
+                                <label for="v13">400 мл</label>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p><span>200</span> грн</p>
+                        </div>
+                    </div>
+                    <div class="products__tiny--btn">
+                        <div class="count">
+                            <input type="hidden" name="count" class="count_val" value="1">
+                            <button type="button" class="count__btn" data-action="-">-</button>
+                            <span class="count__text">1</span>
+                            <button type="button" class="count__btn" data-action="+">+</button>
+                        </div>
+                        <button type="button" class="btn btn-yellow">Купить</button>
+                    </div>
+                </div>
+                <div class="products__tiny">
+                    <a href="#" class="products__tiny--img">
+                        <img src="img/p3.jpg" data-old="img/p3.jpg" data-new="img/p4.jpg" alt="Product 2">
+                    </a>
+                    <a href="#" class="products__tiny--title" title="Шампунь">Шампунь</a>
+                    <p class="products__tiny--excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <div class="products__tiny--param">
+                        <div class="color">
+                            <button type="button" class="color__btn active color__controller">Цвет</button>
+                            <input type="hidden" name="volume" value="">
+                            <div class="color__menu">
+                                <div class="color__menu--overlay">
+                                    <button type="button" class="color__btn" data-id="1">Желтый</button>
+                                    <button type="button" class="color__btn" data-id="2">Зеленый</button>
+                                    <button type="button" class="color__btn" data-id="3">Красный</button>
+                                    <button type="button" class="color__btn" data-id="4">Синий</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="volume">
+                            <div class="volume__tiny">
+                                <input type="radio" id="v21" name="volume2" class="volume__tiny--val" data-price="200" checked>
+                                <label for="v21">200 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v22" name="volume2" class="volume__tiny--val" data-price="300">
+                                <label for="v22">300 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v23" name="volume2" class="volume__tiny--val" data-price="400">
+                                <label for="v23">400 мл</label>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p><span>200</span> грн</p>
+                        </div>
+                    </div>
+                    <div class="products__tiny--btn">
+                        <div class="count">
+                            <input type="hidden" name="count" class="count_val" value="1">
+                            <button type="button" class="count__btn" data-action="-">-</button>
+                            <span class="count__text">1</span>
+                            <button type="button" class="count__btn" data-action="+">+</button>
+                        </div>
+                        <button type="button" class="btn btn-yellow">Купить</button>
+                    </div>
+                </div>
+                <div class="products__tiny">
+                    <a href="#" class="products__tiny--img">
+                        <img src="img/p5.jpg" data-old="img/p5.jpg" data-new="img/p6.jpg" alt="Product 3">
+                    </a>
+                    <a href="#" class="products__tiny--title" title="Шампунь">Шампунь</a>
+                    <p class="products__tiny--excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <div class="products__tiny--param">
+                        <div class="color">
+                            <button type="button" class="color__btn active color__controller">Цвет</button>
+                            <input type="hidden" name="volume" value="">
+                            <div class="color__menu">
+                                <div class="color__menu--overlay">
+                                    <button type="button" class="color__btn" data-id="1">Желтый</button>
+                                    <button type="button" class="color__btn" data-id="2">Зеленый</button>
+                                    <button type="button" class="color__btn" data-id="3">Красный</button>
+                                    <button type="button" class="color__btn" data-id="4">Синий</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="volume">
+                            <div class="volume__tiny">
+                                <input type="radio" id="v31" name="volume3" class="volume__tiny--val" data-price="200" checked>
+                                <label for="v31">200 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v32" name="volume3" class="volume__tiny--val" data-price="300">
+                                <label for="v32">300 мл</label>
+                            </div>
+                            <div class="volume__tiny">
+                                <input type="radio" id="v33" name="volume3" class="volume__tiny--val" data-price="400">
+                                <label for="v33">400 мл</label>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p><span>200</span> грн</p>
+                        </div>
+                    </div>
+                    <div class="products__tiny--btn">
+                        <div class="count">
+                            <input type="hidden" name="count" class="count_val" value="1">
+                            <button type="button" class="count__btn" data-action="-">-</button>
+                            <span class="count__text">1</span>
+                            <button type="button" class="count__btn" data-action="+">+</button>
+                        </div>
+                        <button type="button" class="btn btn-yellow">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/common.js"></script>
+    </body>
+</html>

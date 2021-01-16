@@ -1,0 +1,27 @@
+{
+    "name": "jeverly_tm",
+    "version": "1.0.0",
+    "description": "Тестовое задание для Template Monster",
+    "author": "Vitalii Verbylo",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "HTML"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-cache-files": "^0.0.2",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-newer": "^1.4.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "pump": "^2.0.1"
+    },
+    "dependencies": {
+        "gulp-imagemin": "^7.1.0"
+    }
+}
